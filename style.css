@@ -13,7 +13,7 @@ main{
 #barraContatos{
     width: 30%;
     height: 100%;
-    background-color: #075E54;
+    background-color: rgb(20, 27, 33);
     border: none;
     outline: none;
 }
@@ -26,7 +26,7 @@ main{
 #areaMenssagens{
     width: 100%;
     height: 90%;
-    background-color: #128C7E;
+    background-color: rgb(13, 20, 24);
     border: none;
     outline: none;
     display: flex;
@@ -84,7 +84,7 @@ main{
 #barraChat{
     width: 100%;
     height: 10%;
-    background-color: #075e54ef;
+    background-color: rgb(30, 36, 40);
     align-items: center;
     display: flex;
     
@@ -98,13 +98,14 @@ main{
     border: none;
     outline: none;
     display: flex;
+    background-color: rgb(52, 55, 59);
 }
 
 #enviar{
     border-radius: 30px;
     width: 30px ;
     height: 30px;
-    background-color: white;
+    background-color: rgb(139, 143, 146);
     margin-left: 30px;
     margin-top: -5px;
     border: none;
@@ -112,26 +113,37 @@ main{
     display: flex;
 }
 
+.areaMenssagens{
+    flex-direction: column;
+
+}
+
 .paiMenssagem{
-    width: 100%;
+    width: auto;
     height: auto;
     background-color: transparent;
     display: flex;
     justify-content: start;
 }
 
-.paiMenssagemOculto{
-    width: 100%;
+.paiMenssagemPropria{
+    width: auto;
     height: auto;
     background-color: transparent;
     display: flex;
     justify-content: end;
 }
 
+.paiMenssagemPropria .menssagem{
+    background-color: rgb(19, 77, 55);
+    color: white;
+}
+
 .menssagem{
     width: 50%;
     height: max-content;
-    background-color: white;
+    background-color: #1F272A;
+    color: white;
     margin-top: 5px;
     margin-left: 5px;
     border-radius: 13px;
@@ -140,7 +152,7 @@ main{
 }
 
 .menssagem h4{
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 10px
 }
 
